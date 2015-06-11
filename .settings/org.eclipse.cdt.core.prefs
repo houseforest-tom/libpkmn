@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1231583883/MINGW_HOME/delimiter=;
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1231583883/MINGW_HOME/operation=replace
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1231583883/MINGW_HOME/value=C\:\\MinGW
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1231583883/MSYS_HOME/delimiter=;
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1231583883/MSYS_HOME/operation=remove
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1231583883/PATH/delimiter=;
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1231583883/PATH/operation=replace
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1231583883/PATH/value=${MINGW_HOME}\\bin;${MSYS_HOME}\\bin;C\:/Program Files/Java/jre1.8.0_31/bin/server;C\:/Program Files/Java/jre1.8.0_31/bin;C\:/Program Files/Java/jre1.8.0_31/lib/amd64;C\:\\MinGW\\bin;C\:\\MinGW\\msys\\1.0\\bin;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Program Files (x86)\\Intel\\iCLS Client\\;C\:\\Program Files\\Intel\\iCLS Client\\;C\:\\Windows\\system32;C\:\\Windows;C\:\\Windows\\System32\\Wbem;C\:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C\:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C\:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C\:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C\:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C\:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E\:\\Programme\\Android SDK\\build-tools\\21.1.2;E\:\\Programme\\Android SDK\\platform-tools;C\:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C\:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C\:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C\:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C\:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;E\:\\Programme\\eclipse
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1231583883/append=true
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.1231583883/appendContributed=true
+org.eclipse.cdt.core.code_formatter=org.eclipse.cdt.core.defaultCodeFormatter
