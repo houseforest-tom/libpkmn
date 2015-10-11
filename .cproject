@@ -30,6 +30,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/SFML-2.1/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/angelscript/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/curl/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/${ProjName}/lib/json&quot;"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.other.other.1753254983" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -fno-strict-aliasing" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.99038151" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
@@ -49,6 +51,7 @@
 								<option id="gnu.cpp.link.option.paths.1595623657" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/SFML-2.1/lib}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/angelscript/lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lib/curl/lib}&quot;"/>
 								</option>
 								<option id="gnu.cpp.link.option.libs.547497056" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="sfml-graphics-s-d"/>
@@ -57,6 +60,7 @@
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="opengl32"/>
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="glu32"/>
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="angelscript"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="curldll"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.321377800" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -109,6 +113,7 @@
 								</option>
 								<option id="gnu.cpp.compiler.option.include.paths.1030788954" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/pokegine/lib/chaiscript/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/libpkmn/lib/curl/include}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1526470014" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -129,9 +134,11 @@
 								<option id="gnu.cpp.link.option.paths.2129413121" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/pokegine/lib/SFML-2.1/lib}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/pokegine/lib/angelscript/lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/libpkmn/lib/curl}&quot;"/>
 								</option>
 								<option id="gnu.cpp.link.option.libs.1908770669" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="&quot;${workspace_loc:/pokegine/angelscript}&quot;"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="&quot;E:\Libraries\curl-7.40.0-mingw64\lib64\libcurl.a&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1236724342" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>

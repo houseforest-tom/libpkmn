@@ -10,13 +10,15 @@
 #include <Party.h>
 #include <Battle.h>
 #include <DefaultBattleMechanics.h>
+#include <JsonManager.h>
 
 namespace PKMN
 {
 	TestGame::TestGame(void)
 			: IGame(1280, 720, false, "Test Pokemon Game")
 	{
-		NOOP;
+		JsonManager json;
+		std::cout << json.request("http://pokeapi.co/api/v1/pokedex/1/") << std::endl;
 	}
 
 	/*****************************************************************
